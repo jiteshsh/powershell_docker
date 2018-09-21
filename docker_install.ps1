@@ -18,7 +18,7 @@ function docker_install {
         Install-Module DockerMsftProvider -Force -ErrorAction Stop  | Out-Null
         Install-Package Docker -ProviderName DockerMsftProvider -Force -ErrorAction Stop | Out-Null
 
-        if((check_installation) -eq $true) {echo "Installation was success"}
+        if((check_installation) -eq $true) {echo "Installation Completed :) "}
     }
 }
 
